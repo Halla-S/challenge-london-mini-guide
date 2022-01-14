@@ -8,7 +8,7 @@ const stratford = require("./data/Stratford.json");
 
 
 app.get("/",(req,res)=>{
- res.json("try/:city/:category")
+ res.json("try/city/category")
 });
 
 //All about Harrow
